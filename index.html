@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- META -->
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Modern responsive image gallery built using HTML, CSS and JavaScript."
+    />
+
+    <meta
+      name="keywords"
+      content="Image Gallery, HTML, CSS, JavaScript, Frontend Project"
+    />
+
+    <meta name="author" content="Navaf" />
+
+    <!-- TITLE -->
+
+    <title>Nova Gallery | Modern Image Showcase</title>
+
+    <!-- FAVICON -->
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- LOADER -->
+
+    <div class="loader-wrapper">
+      <div class="loader" aria-label="Loading"></div>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">Nova Gallery</div>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#home"> Home </a>
+          </li>
+
+          <li>
+            <a href="#gallery"> Gallery </a>
+          </li>
+
+          <li>
+            <a href="#about"> About </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+      <h1>Travel & Technology Showcase</h1>
+
+      <p>
+        Explore a modern collection of travel, automobiles, technology,
+        architecture and nature photography.
+      </p>
+    </section>
+
+    <!-- FILTERS -->
+
+    <section class="filters-section">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="travel">Travel</button>
+
+        <button class="filter-btn" data-filter="tech">Tech</button>
+
+        <button class="filter-btn" data-filter="nature">Nature</button>
+
+        <button class="filter-btn" data-filter="luxury">Luxury</button>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+
+    <main>
+      <section class="gallery" id="gallery">
+        <!-- IMAGE 1 -->
+
+        <article class="card travel">
+          <img src="images/img1.jpg" alt="High speed train" loading="lazy" />
+
+          <div class="overlay">
+            <h3>High Speed Rail</h3>
+
+            <p>Modern transportation system</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 2 -->
+
+        <article class="card travel">
+          <img src="images/img2.jpg" alt="Airplane at airport" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Air Travel</h3>
+
+            <p>International airport runway</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 3 -->
+
+        <article class="card nature">
+          <img src="images/img3.jpg" alt="Mountain landscape" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Mountain Valley</h3>
+
+            <p>Peaceful landscape view</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 4 -->
+
+        <article class="card luxury">
+          <img src="images/img4.jpg" alt="Modern interior" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Modern Interior</h3>
+
+            <p>Elegant architectural lighting</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 5 -->
+
+        <article class="card tech">
+          <img src="images/img5.jpg" alt="Laptop setup" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Technology Setup</h3>
+
+            <p>Creative workspace environment</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 6 -->
+
+        <article class="card luxury">
+          <img src="images/img6.jpg" alt="Luxury BMW car" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Luxury Performance</h3>
+
+            <p>High-end automotive design</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 7 -->
+
+        <article class="card luxury">
+          <img src="images/img7.jpg" alt="Porsche sports car" loading="lazy" />
+
+          <div class="overlay">
+            <h3>Night Drive</h3>
+
+            <p>Sports sedan aesthetics</p>
+          </div>
+        </article>
+
+        <!-- IMAGE 8 -->
+
+        <article class="card nature">
+          <img
+            src="images/img8.jpg"
+            alt="Green nature landscape"
+            loading="lazy"
+          />
+
+          <div class="overlay">
+            <h3>Nature Escape</h3>
+
+            <p>Green landscape at sunset</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox">
+      <span class="close"> &times; </span>
+
+      <img class="lightbox-img" src="" alt="Preview image" />
+
+      <button class="prev">❮</button>
+
+      <button class="next">❯</button>
+    </div>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+      <h2>About This Project</h2>
+
+      <p>
+        This image gallery project was developed using HTML, CSS and JavaScript
+        as part of a frontend development internship task. The project includes
+        responsive layouts, filtering, hover effects, lightbox preview and
+        smooth animations.
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <p>Designed & Developed by Navaf using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
