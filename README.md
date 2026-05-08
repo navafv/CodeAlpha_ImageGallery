@@ -77,12 +77,12 @@ git clone https://github.com/navafv/CodeAlpha_ImageGallery.git
 
 ## Screenshots
 
-(screenshots/homepage.png)
-(screenshots/gallery.png)
-(screenshots/lightbox.png)
-(screenshots/mobile1.png)
-(screenshots/mobile2.png)
-(screenshots/mobile3.png)
+![Homepage](screenshots/homepage.png)
+![Gallery section](screenshots/gallery.png)
+![Lightbox preview](screenshots/lightbox.png)
+![Mobile responsive view](screenshots/mobile1.png)
+![Mobile responsive view](screenshots/mobile2.png)
+![Mobile responsive view](screenshots/mobile3.png)
 
 ---
 
